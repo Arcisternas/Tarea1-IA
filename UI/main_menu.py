@@ -13,7 +13,7 @@ def abrir_menu():
     ventana_menu.geometry("900x600")
     ventana_menu.resizable(False, False)
     ventana_menu.configure(bg="lightslategrey")
-    ventana_menu.iconbitmap("fire_icon.ico")
+    ventana_menu.iconbitmap("resources/fire_icon.ico")
 
     titulo = tk.Label(ventana_menu)
     titulo.configure(text="Escape de la torre", font=("Agency FB", 32, "bold"), pady=50, bg="lightslategrey")

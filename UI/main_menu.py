@@ -1,5 +1,5 @@
 import tkinter as tk
-from eleccion_algoritmo import abrir_algoritmo
+from .eleccion_algoritmo import abrir_algoritmo
 
 def cargar_mapa(numero_mapa):
     ventana_menu.withdraw() 
@@ -10,7 +10,7 @@ def abrir_menu():
     ventana_menu = tk.Tk()
     ventana_menu.protocol("WM_DELETE_WINDOW", cerrar_programa)
     ventana_menu.title("Escape de la torre")
-    ventana_menu.geometry("900x600")
+    ventana_menu.geometry("1000x650")
     ventana_menu.resizable(False, False)
     ventana_menu.configure(bg="lightslategrey")
     ventana_menu.iconbitmap("resources/fire_icon.ico")

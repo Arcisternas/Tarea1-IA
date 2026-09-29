@@ -1,0 +1,222 @@
+Reporte de simulaciones - Escape de la Torre
+Mapa: 3
+Algoritmo: A*
+Simulaciones: 200
+
+Tasa de supervivencia:
+Media: 26.90%
+Mínima: 0.00%
+Máxima: 93.33%
+
+Estadísticos descriptivos de tiempo (turnos):
+Iteraciones con al menos un evacuado: 125
+Media: 61.96
+Desviación estándar: 8.89
+Mínimo: 46
+Máximo: 83
+
+Tiempo real de ejecución (segundos):
+Promedio por simulación: 1.1533
+Total de todas las simulaciones: 230.6630
+
+Detalle por simulación:
+1: supervivencia=6.67%, turnos_ultimo_evacuado=47, tiempo_real=0.4912s, evacuados=10, bajas=140, fin=No quedan agentes en el mapa
+2: supervivencia=40.00%, turnos_ultimo_evacuado=64, tiempo_real=0.6392s, evacuados=60, bajas=90, fin=No quedan agentes en el mapa
+3: supervivencia=80.00%, turnos_ultimo_evacuado=75, tiempo_real=1.2801s, evacuados=120, bajas=30, fin=No quedan agentes en el mapa
+4: supervivencia=0.00%, turnos_ultimo_evacuado=No aplica, tiempo_real=0.7173s, evacuados=0, bajas=0, fin=El fuego bloqueó todas las rutas a la salida
+5: supervivencia=13.33%, turnos_ultimo_evacuado=53, tiempo_real=0.8771s, evacuados=20, bajas=130, fin=No quedan agentes en el mapa
+6: supervivencia=73.33%, turnos_ultimo_evacuado=65, tiempo_real=1.8803s, evacuados=110, bajas=30, fin=El fuego bloqueó todas las rutas a la salida
+7: supervivencia=73.33%, turnos_ultimo_evacuado=71, tiempo_real=1.9444s, evacuados=110, bajas=40, fin=No quedan agentes en el mapa
+8: supervivencia=0.00%, turnos_ultimo_evacuado=No aplica, tiempo_real=1.5237s, evacuados=0, bajas=20, fin=El fuego bloqueó todas las rutas a la salida
+9: supervivencia=20.00%, turnos_ultimo_evacuado=52, tiempo_real=0.4813s, evacuados=30, bajas=120, fin=No quedan agentes en el mapa
+10: supervivencia=0.00%, turnos_ultimo_evacuado=No aplica, tiempo_real=1.5484s, evacuados=0, bajas=50, fin=El fuego bloqueó todas las rutas a la salida
+11: supervivencia=60.00%, turnos_ultimo_evacuado=70, tiempo_real=1.0989s, evacuados=90, bajas=60, fin=No quedan agentes en el mapa
+12: supervivencia=20.00%, turnos_ultimo_evacuado=56, tiempo_real=0.7544s, evacuados=30, bajas=120, fin=No quedan agentes en el mapa
+13: supervivencia=26.67%, turnos_ultimo_evacuado=55, tiempo_real=1.3704s, evacuados=40, bajas=110, fin=No quedan agentes en el mapa
+14: supervivencia=53.33%, turnos_ultimo_evacuado=64, tiempo_real=1.2554s, evacuados=80, bajas=50, fin=El fuego bloqueó todas las rutas a la salida
+15: supervivencia=93.33%, turnos_ultimo_evacuado=78, tiempo_real=1.3243s, evacuados=140, bajas=10, fin=No quedan agentes en el mapa
+16: supervivencia=0.00%, turnos_ultimo_evacuado=No aplica, tiempo_real=0.1035s, evacuados=0, bajas=20, fin=El fuego bloqueó todas las rutas a la salida
+17: supervivencia=13.33%, turnos_ultimo_evacuado=50, tiempo_real=1.5715s, evacuados=20, bajas=10, fin=El fuego bloqueó todas las rutas a la salida
+18: supervivencia=0.00%, turnos_ultimo_evacuado=No aplica, tiempo_real=0.7997s, evacuados=0, bajas=0, fin=El fuego bloqueó todas las rutas a la salida
+19: supervivencia=46.67%, turnos_ultimo_evacuado=62, tiempo_real=1.0030s, evacuados=70, bajas=80, fin=No quedan agentes en el mapa
+20: supervivencia=53.33%, turnos_ultimo_evacuado=65, tiempo_real=1.0327s, evacuados=80, bajas=60, fin=El fuego bloqueó todas las rutas a la salida
+21: supervivencia=40.00%, turnos_ultimo_evacuado=60, tiempo_real=2.0758s, evacuados=60, bajas=60, fin=El fuego bloqueó todas las rutas a la salida
+22: supervivencia=40.00%, turnos_ultimo_evacuado=61, tiempo_real=1.4557s, evacuados=60, bajas=50, fin=El fuego bloqueó todas las rutas a la salida
+23: supervivencia=6.67%, turnos_ultimo_evacuado=52, tiempo_real=0.9248s, evacuados=10, bajas=140, fin=No quedan agentes en el mapa
+24: supervivencia=0.00%, turnos_ultimo_evacuado=No aplica, tiempo_real=0.7975s, evacuados=0, bajas=0, fin=El fuego bloqueó todas las rutas a la salida
+25: supervivencia=53.33%, turnos_ultimo_evacuado=65, tiempo_real=1.4932s, evacuados=80, bajas=70, fin=No quedan agentes en el mapa
+26: supervivencia=13.33%, turnos_ultimo_evacuado=50, tiempo_real=0.8905s, evacuados=20, bajas=130, fin=No quedan agentes en el mapa
+27: supervivencia=53.33%, turnos_ultimo_evacuado=64, tiempo_real=1.9185s, evacuados=80, bajas=50, fin=El fuego bloqueó todas las rutas a la salida
+28: supervivencia=0.00%, turnos_ultimo_evacuado=No aplica, tiempo_real=1.3264s, evacuados=0, bajas=90, fin=El fuego bloqueó todas las rutas a la salida
+29: supervivencia=20.00%, turnos_ultimo_evacuado=55, tiempo_real=1.5202s, evacuados=30, bajas=90, fin=El fuego bloqueó todas las rutas a la salida
+30: supervivencia=6.67%, turnos_ultimo_evacuado=56, tiempo_real=0.9766s, evacuados=10, bajas=140, fin=No quedan agentes en el mapa
+31: supervivencia=0.00%, turnos_ultimo_evacuado=No aplica, tiempo_real=1.0816s, evacuados=0, bajas=0, fin=El fuego bloqueó todas las rutas a la salida
+32: supervivencia=0.00%, turnos_ultimo_evacuado=No aplica, tiempo_real=1.3675s, evacuados=0, bajas=0, fin=El fuego bloqueó todas las rutas a la salida
+33: supervivencia=33.33%, turnos_ultimo_evacuado=66, tiempo_real=0.9569s, evacuados=50, bajas=100, fin=No quedan agentes en el mapa
+34: supervivencia=0.00%, turnos_ultimo_evacuado=No aplica, tiempo_real=1.0506s, evacuados=0, bajas=60, fin=El fuego bloqueó todas las rutas a la salida
+35: supervivencia=0.00%, turnos_ultimo_evacuado=No aplica, tiempo_real=0.7452s, evacuados=0, bajas=0, fin=El fuego bloqueó todas las rutas a la salida
+36: supervivencia=0.00%, turnos_ultimo_evacuado=No aplica, tiempo_real=0.8444s, evacuados=0, bajas=40, fin=El fuego bloqueó todas las rutas a la salida
+37: supervivencia=0.00%, turnos_ultimo_evacuado=No aplica, tiempo_real=1.1225s, evacuados=0, bajas=80, fin=El fuego bloqueó todas las rutas a la salida
+38: supervivencia=26.67%, turnos_ultimo_evacuado=59, tiempo_real=0.8881s, evacuados=40, bajas=110, fin=No quedan agentes en el mapa
+39: supervivencia=46.67%, turnos_ultimo_evacuado=60, tiempo_real=1.6446s, evacuados=70, bajas=60, fin=El fuego bloqueó todas las rutas a la salida
+40: supervivencia=86.67%, turnos_ultimo_evacuado=73, tiempo_real=1.3915s, evacuados=130, bajas=20, fin=No quedan agentes en el mapa
+41: supervivencia=0.00%, turnos_ultimo_evacuado=No aplica, tiempo_real=1.1158s, evacuados=0, bajas=0, fin=El fuego bloqueó todas las rutas a la salida
+42: supervivencia=33.33%, turnos_ultimo_evacuado=60, tiempo_real=0.9478s, evacuados=50, bajas=100, fin=No quedan agentes en el mapa
+43: supervivencia=33.33%, turnos_ultimo_evacuado=57, tiempo_real=1.1564s, evacuados=50, bajas=30, fin=El fuego bloqueó todas las rutas a la salida
+44: supervivencia=0.00%, turnos_ultimo_evacuado=No aplica, tiempo_real=0.9877s, evacuados=0, bajas=40, fin=El fuego bloqueó todas las rutas a la salida
+45: supervivencia=53.33%, turnos_ultimo_evacuado=66, tiempo_real=1.5092s, evacuados=80, bajas=70, fin=No quedan agentes en el mapa
+46: supervivencia=0.00%, turnos_ultimo_evacuado=No aplica, tiempo_real=0.0011s, evacuados=0, bajas=0, fin=El fuego bloqueó todas las rutas a la salida
+47: supervivencia=0.00%, turnos_ultimo_evacuado=No aplica, tiempo_real=1.6113s, evacuados=0, bajas=30, fin=El fuego bloqueó todas las rutas a la salida
+48: supervivencia=46.67%, turnos_ultimo_evacuado=64, tiempo_real=1.1888s, evacuados=70, bajas=80, fin=No quedan agentes en el mapa
+49: supervivencia=0.00%, turnos_ultimo_evacuado=No aplica, tiempo_real=0.4494s, evacuados=0, bajas=0, fin=El fuego bloqueó todas las rutas a la salida
+50: supervivencia=0.00%, turnos_ultimo_evacuado=No aplica, tiempo_real=0.7374s, evacuados=0, bajas=0, fin=El fuego bloqueó todas las rutas a la salida
+51: supervivencia=33.33%, turnos_ultimo_evacuado=63, tiempo_real=1.7501s, evacuados=50, bajas=90, fin=El fuego bloqueó todas las rutas a la salida
+52: supervivencia=0.00%, turnos_ultimo_evacuado=No aplica, tiempo_real=1.5973s, evacuados=0, bajas=30, fin=El fuego bloqueó todas las rutas a la salida
+53: supervivencia=6.67%, turnos_ultimo_evacuado=46, tiempo_real=0.2301s, evacuados=10, bajas=140, fin=No quedan agentes en el mapa
+54: supervivencia=0.00%, turnos_ultimo_evacuado=No aplica, tiempo_real=1.2097s, evacuados=0, bajas=20, fin=El fuego bloqueó todas las rutas a la salida
+55: supervivencia=6.67%, turnos_ultimo_evacuado=46, tiempo_real=0.1441s, evacuados=10, bajas=140, fin=No quedan agentes en el mapa
+56: supervivencia=0.00%, turnos_ultimo_evacuado=No aplica, tiempo_real=0.6468s, evacuados=0, bajas=0, fin=El fuego bloqueó todas las rutas a la salida
+57: supervivencia=0.00%, turnos_ultimo_evacuado=No aplica, tiempo_real=0.7660s, evacuados=0, bajas=0, fin=El fuego bloqueó todas las rutas a la salida
+58: supervivencia=60.00%, turnos_ultimo_evacuado=68, tiempo_real=0.9237s, evacuados=90, bajas=60, fin=No quedan agentes en el mapa
+59: supervivencia=26.67%, turnos_ultimo_evacuado=56, tiempo_real=1.4068s, evacuados=40, bajas=70, fin=El fuego bloqueó todas las rutas a la salida
+60: supervivencia=33.33%, turnos_ultimo_evacuado=60, tiempo_real=1.1217s, evacuados=50, bajas=100, fin=No quedan agentes en el mapa
+61: supervivencia=66.67%, turnos_ultimo_evacuado=67, tiempo_real=1.7634s, evacuados=100, bajas=50, fin=No quedan agentes en el mapa
+62: supervivencia=53.33%, turnos_ultimo_evacuado=65, tiempo_real=1.4117s, evacuados=80, bajas=60, fin=El fuego bloqueó todas las rutas a la salida
+63: supervivencia=0.00%, turnos_ultimo_evacuado=No aplica, tiempo_real=0.9006s, evacuados=0, bajas=0, fin=El fuego bloqueó todas las rutas a la salida
+64: supervivencia=0.00%, turnos_ultimo_evacuado=No aplica, tiempo_real=0.5998s, evacuados=0, bajas=0, fin=El fuego bloqueó todas las rutas a la salida
+65: supervivencia=20.00%, turnos_ultimo_evacuado=53, tiempo_real=1.2652s, evacuados=30, bajas=120, fin=No quedan agentes en el mapa
+66: supervivencia=0.00%, turnos_ultimo_evacuado=No aplica, tiempo_real=0.7365s, evacuados=0, bajas=90, fin=El fuego bloqueó todas las rutas a la salida
+67: supervivencia=0.00%, turnos_ultimo_evacuado=No aplica, tiempo_real=0.9569s, evacuados=0, bajas=10, fin=El fuego bloqueó todas las rutas a la salida
+68: supervivencia=60.00%, turnos_ultimo_evacuado=68, tiempo_real=1.1089s, evacuados=90, bajas=60, fin=No quedan agentes en el mapa
+69: supervivencia=40.00%, turnos_ultimo_evacuado=62, tiempo_real=1.1001s, evacuados=60, bajas=90, fin=No quedan agentes en el mapa
+70: supervivencia=13.33%, turnos_ultimo_evacuado=50, tiempo_real=1.6547s, evacuados=20, bajas=40, fin=El fuego bloqueó todas las rutas a la salida
+71: supervivencia=66.67%, turnos_ultimo_evacuado=74, tiempo_real=1.7263s, evacuados=100, bajas=50, fin=No quedan agentes en el mapa
+72: supervivencia=0.00%, turnos_ultimo_evacuado=No aplica, tiempo_real=0.1642s, evacuados=0, bajas=10, fin=El fuego bloqueó todas las rutas a la salida
+73: supervivencia=93.33%, turnos_ultimo_evacuado=77, tiempo_real=1.8873s, evacuados=140, bajas=10, fin=No quedan agentes en el mapa
+74: supervivencia=66.67%, turnos_ultimo_evacuado=70, tiempo_real=1.7482s, evacuados=100, bajas=50, fin=No quedan agentes en el mapa
+75: supervivencia=0.00%, turnos_ultimo_evacuado=No aplica, tiempo_real=0.0529s, evacuados=0, bajas=0, fin=El fuego bloqueó todas las rutas a la salida
+76: supervivencia=0.00%, turnos_ultimo_evacuado=No aplica, tiempo_real=0.8904s, evacuados=0, bajas=0, fin=El fuego bloqueó todas las rutas a la salida
+77: supervivencia=0.00%, turnos_ultimo_evacuado=No aplica, tiempo_real=1.4535s, evacuados=0, bajas=50, fin=El fuego bloqueó todas las rutas a la salida
+78: supervivencia=20.00%, turnos_ultimo_evacuado=54, tiempo_real=1.0849s, evacuados=30, bajas=10, fin=El fuego bloqueó todas las rutas a la salida
+79: supervivencia=40.00%, turnos_ultimo_evacuado=62, tiempo_real=1.4402s, evacuados=60, bajas=70, fin=El fuego bloqueó todas las rutas a la salida
+80: supervivencia=33.33%, turnos_ultimo_evacuado=57, tiempo_real=0.5744s, evacuados=50, bajas=100, fin=No quedan agentes en el mapa
+81: supervivencia=93.33%, turnos_ultimo_evacuado=78, tiempo_real=2.5381s, evacuados=140, bajas=10, fin=No quedan agentes en el mapa
+82: supervivencia=33.33%, turnos_ultimo_evacuado=57, tiempo_real=1.4314s, evacuados=50, bajas=30, fin=El fuego bloqueó todas las rutas a la salida
+83: supervivencia=0.00%, turnos_ultimo_evacuado=No aplica, tiempo_real=1.1186s, evacuados=0, bajas=0, fin=El fuego bloqueó todas las rutas a la salida
+84: supervivencia=20.00%, turnos_ultimo_evacuado=53, tiempo_real=1.4426s, evacuados=30, bajas=70, fin=El fuego bloqueó todas las rutas a la salida
+85: supervivencia=6.67%, turnos_ultimo_evacuado=46, tiempo_real=0.4214s, evacuados=10, bajas=140, fin=No quedan agentes en el mapa
+86: supervivencia=0.00%, turnos_ultimo_evacuado=No aplica, tiempo_real=1.6328s, evacuados=0, bajas=30, fin=El fuego bloqueó todas las rutas a la salida
+87: supervivencia=60.00%, turnos_ultimo_evacuado=67, tiempo_real=1.3984s, evacuados=90, bajas=60, fin=No quedan agentes en el mapa
+88: supervivencia=26.67%, turnos_ultimo_evacuado=57, tiempo_real=0.7779s, evacuados=40, bajas=110, fin=No quedan agentes en el mapa
+89: supervivencia=66.67%, turnos_ultimo_evacuado=72, tiempo_real=1.5061s, evacuados=100, bajas=50, fin=No quedan agentes en el mapa
+90: supervivencia=80.00%, turnos_ultimo_evacuado=75, tiempo_real=1.0157s, evacuados=120, bajas=30, fin=No quedan agentes en el mapa
+91: supervivencia=0.00%, turnos_ultimo_evacuado=No aplica, tiempo_real=0.4622s, evacuados=0, bajas=0, fin=El fuego bloqueó todas las rutas a la salida
+92: supervivencia=26.67%, turnos_ultimo_evacuado=56, tiempo_real=1.6805s, evacuados=40, bajas=50, fin=El fuego bloqueó todas las rutas a la salida
+93: supervivencia=46.67%, turnos_ultimo_evacuado=64, tiempo_real=1.5606s, evacuados=70, bajas=70, fin=El fuego bloqueó todas las rutas a la salida
+94: supervivencia=20.00%, turnos_ultimo_evacuado=57, tiempo_real=1.2772s, evacuados=30, bajas=110, fin=El fuego bloqueó todas las rutas a la salida
+95: supervivencia=0.00%, turnos_ultimo_evacuado=No aplica, tiempo_real=0.7592s, evacuados=0, bajas=0, fin=El fuego bloqueó todas las rutas a la salida
+96: supervivencia=20.00%, turnos_ultimo_evacuado=58, tiempo_real=1.5136s, evacuados=30, bajas=90, fin=El fuego bloqueó todas las rutas a la salida
+97: supervivencia=40.00%, turnos_ultimo_evacuado=61, tiempo_real=1.2322s, evacuados=60, bajas=90, fin=No quedan agentes en el mapa
+98: supervivencia=86.67%, turnos_ultimo_evacuado=73, tiempo_real=1.9802s, evacuados=130, bajas=10, fin=El fuego bloqueó todas las rutas a la salida
+99: supervivencia=26.67%, turnos_ultimo_evacuado=57, tiempo_real=0.4290s, evacuados=40, bajas=110, fin=No quedan agentes en el mapa
+100: supervivencia=93.33%, turnos_ultimo_evacuado=80, tiempo_real=1.1448s, evacuados=140, bajas=10, fin=No quedan agentes en el mapa
+101: supervivencia=20.00%, turnos_ultimo_evacuado=53, tiempo_real=0.4806s, evacuados=30, bajas=120, fin=No quedan agentes en el mapa
+102: supervivencia=46.67%, turnos_ultimo_evacuado=62, tiempo_real=0.7075s, evacuados=70, bajas=80, fin=No quedan agentes en el mapa
+103: supervivencia=0.00%, turnos_ultimo_evacuado=No aplica, tiempo_real=0.1695s, evacuados=0, bajas=20, fin=El fuego bloqueó todas las rutas a la salida
+104: supervivencia=46.67%, turnos_ultimo_evacuado=66, tiempo_real=0.7583s, evacuados=70, bajas=80, fin=No quedan agentes en el mapa
+105: supervivencia=0.00%, turnos_ultimo_evacuado=No aplica, tiempo_real=1.0521s, evacuados=0, bajas=50, fin=El fuego bloqueó todas las rutas a la salida
+106: supervivencia=60.00%, turnos_ultimo_evacuado=63, tiempo_real=1.0500s, evacuados=90, bajas=30, fin=El fuego bloqueó todas las rutas a la salida
+107: supervivencia=0.00%, turnos_ultimo_evacuado=No aplica, tiempo_real=0.7015s, evacuados=0, bajas=20, fin=El fuego bloqueó todas las rutas a la salida
+108: supervivencia=0.00%, turnos_ultimo_evacuado=No aplica, tiempo_real=0.0955s, evacuados=0, bajas=20, fin=El fuego bloqueó todas las rutas a la salida
+109: supervivencia=0.00%, turnos_ultimo_evacuado=No aplica, tiempo_real=0.8806s, evacuados=0, bajas=40, fin=El fuego bloqueó todas las rutas a la salida
+110: supervivencia=0.00%, turnos_ultimo_evacuado=No aplica, tiempo_real=0.6512s, evacuados=0, bajas=0, fin=El fuego bloqueó todas las rutas a la salida
+111: supervivencia=6.67%, turnos_ultimo_evacuado=46, tiempo_real=0.4498s, evacuados=10, bajas=140, fin=No quedan agentes en el mapa
+112: supervivencia=0.00%, turnos_ultimo_evacuado=No aplica, tiempo_real=0.7101s, evacuados=0, bajas=0, fin=El fuego bloqueó todas las rutas a la salida
+113: supervivencia=0.00%, turnos_ultimo_evacuado=No aplica, tiempo_real=0.7162s, evacuados=0, bajas=0, fin=El fuego bloqueó todas las rutas a la salida
+114: supervivencia=0.00%, turnos_ultimo_evacuado=No aplica, tiempo_real=0.5169s, evacuados=0, bajas=0, fin=El fuego bloqueó todas las rutas a la salida
+115: supervivencia=0.00%, turnos_ultimo_evacuado=No aplica, tiempo_real=0.6153s, evacuados=0, bajas=0, fin=El fuego bloqueó todas las rutas a la salida
+116: supervivencia=0.00%, turnos_ultimo_evacuado=No aplica, tiempo_real=1.1442s, evacuados=0, bajas=70, fin=El fuego bloqueó todas las rutas a la salida
+117: supervivencia=6.67%, turnos_ultimo_evacuado=46, tiempo_real=1.2137s, evacuados=10, bajas=40, fin=El fuego bloqueó todas las rutas a la salida
+118: supervivencia=53.33%, turnos_ultimo_evacuado=63, tiempo_real=1.7569s, evacuados=80, bajas=50, fin=El fuego bloqueó todas las rutas a la salida
+119: supervivencia=0.00%, turnos_ultimo_evacuado=No aplica, tiempo_real=1.3335s, evacuados=0, bajas=20, fin=El fuego bloqueó todas las rutas a la salida
+120: supervivencia=0.00%, turnos_ultimo_evacuado=No aplica, tiempo_real=1.6401s, evacuados=0, bajas=70, fin=El fuego bloqueó todas las rutas a la salida
+121: supervivencia=6.67%, turnos_ultimo_evacuado=55, tiempo_real=1.6343s, evacuados=10, bajas=100, fin=El fuego bloqueó todas las rutas a la salida
+122: supervivencia=13.33%, turnos_ultimo_evacuado=52, tiempo_real=0.7326s, evacuados=20, bajas=130, fin=No quedan agentes en el mapa
+123: supervivencia=86.67%, turnos_ultimo_evacuado=79, tiempo_real=1.3828s, evacuados=130, bajas=20, fin=No quedan agentes en el mapa
+124: supervivencia=0.00%, turnos_ultimo_evacuado=No aplica, tiempo_real=1.3600s, evacuados=0, bajas=0, fin=El fuego bloqueó todas las rutas a la salida
+125: supervivencia=0.00%, turnos_ultimo_evacuado=No aplica, tiempo_real=1.2994s, evacuados=0, bajas=70, fin=El fuego bloqueó todas las rutas a la salida
+126: supervivencia=6.67%, turnos_ultimo_evacuado=46, tiempo_real=1.2107s, evacuados=10, bajas=40, fin=El fuego bloqueó todas las rutas a la salida
+127: supervivencia=60.00%, turnos_ultimo_evacuado=68, tiempo_real=1.3493s, evacuados=90, bajas=60, fin=No quedan agentes en el mapa
+128: supervivencia=26.67%, turnos_ultimo_evacuado=61, tiempo_real=1.5365s, evacuados=40, bajas=100, fin=El fuego bloqueó todas las rutas a la salida
+129: supervivencia=86.67%, turnos_ultimo_evacuado=73, tiempo_real=1.9688s, evacuados=130, bajas=10, fin=El fuego bloqueó todas las rutas a la salida
+130: supervivencia=66.67%, turnos_ultimo_evacuado=74, tiempo_real=1.8778s, evacuados=100, bajas=50, fin=No quedan agentes en el mapa
+131: supervivencia=26.67%, turnos_ultimo_evacuado=55, tiempo_real=1.7933s, evacuados=40, bajas=40, fin=El fuego bloqueó todas las rutas a la salida
+132: supervivencia=73.33%, turnos_ultimo_evacuado=67, tiempo_real=2.1304s, evacuados=110, bajas=10, fin=El fuego bloqueó todas las rutas a la salida
+133: supervivencia=93.33%, turnos_ultimo_evacuado=79, tiempo_real=1.4398s, evacuados=140, bajas=10, fin=No quedan agentes en el mapa
+134: supervivencia=86.67%, turnos_ultimo_evacuado=83, tiempo_real=2.3390s, evacuados=130, bajas=20, fin=No quedan agentes en el mapa
+135: supervivencia=26.67%, turnos_ultimo_evacuado=59, tiempo_real=0.8549s, evacuados=40, bajas=110, fin=No quedan agentes en el mapa
+136: supervivencia=0.00%, turnos_ultimo_evacuado=No aplica, tiempo_real=0.2875s, evacuados=0, bajas=0, fin=El fuego bloqueó todas las rutas a la salida
+137: supervivencia=73.33%, turnos_ultimo_evacuado=71, tiempo_real=1.8364s, evacuados=110, bajas=40, fin=No quedan agentes en el mapa
+138: supervivencia=0.00%, turnos_ultimo_evacuado=No aplica, tiempo_real=0.8433s, evacuados=0, bajas=0, fin=El fuego bloqueó todas las rutas a la salida
+139: supervivencia=0.00%, turnos_ultimo_evacuado=No aplica, tiempo_real=1.3079s, evacuados=0, bajas=60, fin=El fuego bloqueó todas las rutas a la salida
+140: supervivencia=0.00%, turnos_ultimo_evacuado=No aplica, tiempo_real=1.1466s, evacuados=0, bajas=0, fin=El fuego bloqueó todas las rutas a la salida
+141: supervivencia=53.33%, turnos_ultimo_evacuado=65, tiempo_real=1.4474s, evacuados=80, bajas=60, fin=El fuego bloqueó todas las rutas a la salida
+142: supervivencia=53.33%, turnos_ultimo_evacuado=65, tiempo_real=1.3642s, evacuados=80, bajas=70, fin=No quedan agentes en el mapa
+143: supervivencia=40.00%, turnos_ultimo_evacuado=71, tiempo_real=1.2396s, evacuados=60, bajas=70, fin=El fuego bloqueó todas las rutas a la salida
+144: supervivencia=0.00%, turnos_ultimo_evacuado=No aplica, tiempo_real=0.8550s, evacuados=0, bajas=70, fin=El fuego bloqueó todas las rutas a la salida
+145: supervivencia=60.00%, turnos_ultimo_evacuado=68, tiempo_real=1.7464s, evacuados=90, bajas=60, fin=No quedan agentes en el mapa
+146: supervivencia=93.33%, turnos_ultimo_evacuado=77, tiempo_real=1.9519s, evacuados=140, bajas=10, fin=No quedan agentes en el mapa
+147: supervivencia=46.67%, turnos_ultimo_evacuado=60, tiempo_real=1.5344s, evacuados=70, bajas=70, fin=El fuego bloqueó todas las rutas a la salida
+148: supervivencia=20.00%, turnos_ultimo_evacuado=54, tiempo_real=1.8067s, evacuados=30, bajas=40, fin=El fuego bloqueó todas las rutas a la salida
+149: supervivencia=40.00%, turnos_ultimo_evacuado=62, tiempo_real=1.1160s, evacuados=60, bajas=90, fin=No quedan agentes en el mapa
+150: supervivencia=40.00%, turnos_ultimo_evacuado=62, tiempo_real=1.3488s, evacuados=60, bajas=90, fin=No quedan agentes en el mapa
+151: supervivencia=6.67%, turnos_ultimo_evacuado=46, tiempo_real=0.6875s, evacuados=10, bajas=140, fin=No quedan agentes en el mapa
+152: supervivencia=0.00%, turnos_ultimo_evacuado=No aplica, tiempo_real=0.1517s, evacuados=0, bajas=0, fin=El fuego bloqueó todas las rutas a la salida
+153: supervivencia=0.00%, turnos_ultimo_evacuado=No aplica, tiempo_real=0.8706s, evacuados=0, bajas=0, fin=El fuego bloqueó todas las rutas a la salida
+154: supervivencia=0.00%, turnos_ultimo_evacuado=No aplica, tiempo_real=1.4589s, evacuados=0, bajas=30, fin=El fuego bloqueó todas las rutas a la salida
+155: supervivencia=40.00%, turnos_ultimo_evacuado=63, tiempo_real=1.0024s, evacuados=60, bajas=90, fin=No quedan agentes en el mapa
+156: supervivencia=33.33%, turnos_ultimo_evacuado=57, tiempo_real=0.5779s, evacuados=50, bajas=100, fin=No quedan agentes en el mapa
+157: supervivencia=53.33%, turnos_ultimo_evacuado=67, tiempo_real=0.9922s, evacuados=80, bajas=70, fin=No quedan agentes en el mapa
+158: supervivencia=0.00%, turnos_ultimo_evacuado=No aplica, tiempo_real=0.8658s, evacuados=0, bajas=0, fin=El fuego bloqueó todas las rutas a la salida
+159: supervivencia=6.67%, turnos_ultimo_evacuado=47, tiempo_real=0.5142s, evacuados=10, bajas=140, fin=No quedan agentes en el mapa
+160: supervivencia=26.67%, turnos_ultimo_evacuado=64, tiempo_real=1.1917s, evacuados=40, bajas=110, fin=No quedan agentes en el mapa
+161: supervivencia=33.33%, turnos_ultimo_evacuado=61, tiempo_real=1.1311s, evacuados=50, bajas=70, fin=El fuego bloqueó todas las rutas a la salida
+162: supervivencia=46.67%, turnos_ultimo_evacuado=62, tiempo_real=0.7260s, evacuados=70, bajas=80, fin=No quedan agentes en el mapa
+163: supervivencia=6.67%, turnos_ultimo_evacuado=46, tiempo_real=1.6728s, evacuados=10, bajas=10, fin=El fuego bloqueó todas las rutas a la salida
+164: supervivencia=20.00%, turnos_ultimo_evacuado=52, tiempo_real=0.4700s, evacuados=30, bajas=120, fin=No quedan agentes en el mapa
+165: supervivencia=0.00%, turnos_ultimo_evacuado=No aplica, tiempo_real=0.7856s, evacuados=0, bajas=0, fin=El fuego bloqueó todas las rutas a la salida
+166: supervivencia=13.33%, turnos_ultimo_evacuado=52, tiempo_real=0.7829s, evacuados=20, bajas=130, fin=No quedan agentes en el mapa
+167: supervivencia=0.00%, turnos_ultimo_evacuado=No aplica, tiempo_real=0.5617s, evacuados=0, bajas=0, fin=El fuego bloqueó todas las rutas a la salida
+168: supervivencia=33.33%, turnos_ultimo_evacuado=55, tiempo_real=1.7488s, evacuados=50, bajas=60, fin=El fuego bloqueó todas las rutas a la salida
+169: supervivencia=86.67%, turnos_ultimo_evacuado=79, tiempo_real=1.8224s, evacuados=130, bajas=20, fin=No quedan agentes en el mapa
+170: supervivencia=40.00%, turnos_ultimo_evacuado=58, tiempo_real=1.5740s, evacuados=60, bajas=40, fin=El fuego bloqueó todas las rutas a la salida
+171: supervivencia=33.33%, turnos_ultimo_evacuado=61, tiempo_real=1.2702s, evacuados=50, bajas=70, fin=El fuego bloqueó todas las rutas a la salida
+172: supervivencia=0.00%, turnos_ultimo_evacuado=No aplica, tiempo_real=1.0492s, evacuados=0, bajas=10, fin=El fuego bloqueó todas las rutas a la salida
+173: supervivencia=0.00%, turnos_ultimo_evacuado=No aplica, tiempo_real=0.6428s, evacuados=0, bajas=0, fin=El fuego bloqueó todas las rutas a la salida
+174: supervivencia=0.00%, turnos_ultimo_evacuado=No aplica, tiempo_real=1.3257s, evacuados=0, bajas=0, fin=El fuego bloqueó todas las rutas a la salida
+175: supervivencia=0.00%, turnos_ultimo_evacuado=No aplica, tiempo_real=1.0826s, evacuados=0, bajas=30, fin=El fuego bloqueó todas las rutas a la salida
+176: supervivencia=0.00%, turnos_ultimo_evacuado=No aplica, tiempo_real=0.1320s, evacuados=0, bajas=0, fin=El fuego bloqueó todas las rutas a la salida
+177: supervivencia=60.00%, turnos_ultimo_evacuado=68, tiempo_real=1.5503s, evacuados=90, bajas=60, fin=No quedan agentes en el mapa
+178: supervivencia=0.00%, turnos_ultimo_evacuado=No aplica, tiempo_real=1.0826s, evacuados=0, bajas=0, fin=El fuego bloqueó todas las rutas a la salida
+179: supervivencia=40.00%, turnos_ultimo_evacuado=71, tiempo_real=1.7446s, evacuados=60, bajas=70, fin=El fuego bloqueó todas las rutas a la salida
+180: supervivencia=0.00%, turnos_ultimo_evacuado=No aplica, tiempo_real=0.9396s, evacuados=0, bajas=0, fin=El fuego bloqueó todas las rutas a la salida
+181: supervivencia=0.00%, turnos_ultimo_evacuado=No aplica, tiempo_real=1.3954s, evacuados=0, bajas=30, fin=El fuego bloqueó todas las rutas a la salida
+182: supervivencia=86.67%, turnos_ultimo_evacuado=73, tiempo_real=1.4811s, evacuados=130, bajas=10, fin=El fuego bloqueó todas las rutas a la salida
+183: supervivencia=6.67%, turnos_ultimo_evacuado=50, tiempo_real=0.5185s, evacuados=10, bajas=140, fin=No quedan agentes en el mapa
+184: supervivencia=53.33%, turnos_ultimo_evacuado=68, tiempo_real=2.1694s, evacuados=80, bajas=60, fin=El fuego bloqueó todas las rutas a la salida
+185: supervivencia=0.00%, turnos_ultimo_evacuado=No aplica, tiempo_real=0.2185s, evacuados=0, bajas=0, fin=El fuego bloqueó todas las rutas a la salida
+186: supervivencia=0.00%, turnos_ultimo_evacuado=No aplica, tiempo_real=1.7655s, evacuados=0, bajas=0, fin=El fuego bloqueó todas las rutas a la salida
+187: supervivencia=93.33%, turnos_ultimo_evacuado=71, tiempo_real=2.2716s, evacuados=140, bajas=10, fin=No quedan agentes en el mapa
+188: supervivencia=0.00%, turnos_ultimo_evacuado=No aplica, tiempo_real=1.4885s, evacuados=0, bajas=50, fin=El fuego bloqueó todas las rutas a la salida
+189: supervivencia=26.67%, turnos_ultimo_evacuado=64, tiempo_real=1.1686s, evacuados=40, bajas=110, fin=No quedan agentes en el mapa
+190: supervivencia=26.67%, turnos_ultimo_evacuado=59, tiempo_real=1.3683s, evacuados=40, bajas=100, fin=El fuego bloqueó todas las rutas a la salida
+191: supervivencia=86.67%, turnos_ultimo_evacuado=75, tiempo_real=1.6521s, evacuados=130, bajas=20, fin=No quedan agentes en el mapa
+192: supervivencia=20.00%, turnos_ultimo_evacuado=58, tiempo_real=0.8923s, evacuados=30, bajas=90, fin=El fuego bloqueó todas las rutas a la salida
+193: supervivencia=0.00%, turnos_ultimo_evacuado=No aplica, tiempo_real=0.1589s, evacuados=0, bajas=20, fin=El fuego bloqueó todas las rutas a la salida
+194: supervivencia=53.33%, turnos_ultimo_evacuado=64, tiempo_real=1.7222s, evacuados=80, bajas=50, fin=El fuego bloqueó todas las rutas a la salida
+195: supervivencia=80.00%, turnos_ultimo_evacuado=68, tiempo_real=1.8454s, evacuados=120, bajas=30, fin=No quedan agentes en el mapa
+196: supervivencia=0.00%, turnos_ultimo_evacuado=No aplica, tiempo_real=1.2058s, evacuados=0, bajas=0, fin=El fuego bloqueó todas las rutas a la salida
+197: supervivencia=13.33%, turnos_ultimo_evacuado=55, tiempo_real=1.2573s, evacuados=20, bajas=100, fin=El fuego bloqueó todas las rutas a la salida
+198: supervivencia=0.00%, turnos_ultimo_evacuado=No aplica, tiempo_real=1.2985s, evacuados=0, bajas=0, fin=El fuego bloqueó todas las rutas a la salida
+199: supervivencia=73.33%, turnos_ultimo_evacuado=67, tiempo_real=1.8962s, evacuados=110, bajas=10, fin=El fuego bloqueó todas las rutas a la salida
+200: supervivencia=6.67%, turnos_ultimo_evacuado=55, tiempo_real=1.5829s, evacuados=10, bajas=100, fin=El fuego bloqueó todas las rutas a la salida

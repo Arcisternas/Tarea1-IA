@@ -1,11 +1,11 @@
 import tkinter as tk
-from mapa import abrir_mapa
+from .mapa import abrir_mapa
 
 def abrir_algoritmo(numero_mapa, ventana_menu):
     ventana_algoritmo = tk.Toplevel(ventana_menu)
     ventana_algoritmo.protocol("WM_DELETE_WINDOW", ventana_menu.destroy)
     ventana_algoritmo.title("Mapa " + str(numero_mapa) + " - Elección de algoritmo")
-    ventana_algoritmo.geometry("900x600")
+    ventana_algoritmo.geometry("1000x650")
     ventana_algoritmo.resizable(False, False)
     ventana_algoritmo.configure(bg="lightslategrey")
     ventana_algoritmo.iconbitmap("resources/fire_icon.ico")
@@ -17,7 +17,7 @@ def abrir_algoritmo(numero_mapa, ventana_menu):
     boton_algoritmo2 = tk.Button(ventana_algoritmo, text="UCS   ", font=("Agency FB", 20), bg="lightsteelblue", width=40, command=lambda: abrir_mapa_seleccionado(numero_mapa, "UCS", ventana_menu, ventana_algoritmo))
     boton_algoritmo3 = tk.Button(ventana_algoritmo, text="Greedy Best-First Search", font=("Agency FB", 20), bg="lightsteelblue", width=40, command=lambda: abrir_mapa_seleccionado(numero_mapa, "Greedy", ventana_menu, ventana_algoritmo))
     boton_algoritmo4 = tk.Button(ventana_algoritmo, text="A*", font=("Agency FB", 20), bg="lightsteelblue", width=40, command=lambda: abrir_mapa_seleccionado(numero_mapa, "A*", ventana_menu, ventana_algoritmo))
-    boton_algoritmo5 = tk.Button(ventana_algoritmo, text="Algoritmo genético", font=("Agency FB", 20), bg="lightsteelblue", width=40, command=lambda: abrir_mapa_seleccionado(numero_mapa, "Algoritmo genético", ventana_menu, ventana_algoritmo))
+    boton_algoritmo5 = tk.Button(ventana_algoritmo, text="Algoritmo genético", font=("Agency FB", 20), bg="lightsteelblue", width=40, command=lambda: abrir_mapa_seleccionado(numero_mapa, "genético", ventana_menu, ventana_algoritmo))
 
     boton_algoritmo1.pack(pady=10)
     boton_algoritmo2.pack(pady=10)
